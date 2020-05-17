@@ -1,0 +1,25 @@
+{
+  "name": "latetrains/php-kafka-client",
+  "description": "A PHP Client to communicate with Kafka and Confluent Brokers",
+  "type": "library",
+  "authors": [
+    {
+      "name": "Richard Hughes"
+    }
+  ],
+  "license": [
+    "MIT"
+  ],
+  "require": {
+    "ext-rdkafka": "*",
+    "php": "^7.4"
+  },
+  "require-dev": {
+    "kwn/php-rdkafka-stubs": "^2.0"
+  },
+  "autoload": {
+    "psr-4": {
+      "LateTrains\\Kafka\\": "src"
+    }
+  }
+}
